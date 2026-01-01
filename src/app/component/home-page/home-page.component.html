@@ -10,10 +10,12 @@
       <h3>Publiserings år:<br>{{ book.published }}</h3>
     </div>
     <div class="descriptionContainer">
+      <!-- Container for collapsible description -->
       <div class="homeDescription" [class.expanded]="textExpend(i)" [class.clamped]="!textExpend(i)">
         <p class="text-block">{{ book.description }}</p>
       </div>
       <button class="homePageButton" (click)="discriptionBook(i)">
+        <!-- Changes text based on expansion state -->
         {{ textExpend(i) ? "Visa mindre..." : "Visa mer..." }}
       </button>
     </div>

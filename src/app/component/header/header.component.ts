@@ -10,8 +10,10 @@ import { LatestBookComponent } from '../latest-book/latest-book.component';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  //Tracking meny status
   menyOpen = false;
 
+  //Tracks meny status
   toggleMenu() {
     this.menyOpen = !this.menyOpen;
   }

@@ -20,7 +20,9 @@ export class BookDitailComponent {
   private sub = new Subscription();
 
   books = signal<Book[]>([]);
+   // get bookId from route params
   bookId = signal<string | null>(null);
+  // find book by id from books signal
   book = computed<Book | undefined>(() => this.books().find(b => String((b as any).id) === this.bookId()));
 
   openLink(url: string) {

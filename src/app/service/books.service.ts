@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, Injectable, isStandalone } from '@angular/core';
 import { Observable } from 'rxjs';
 
+//Book interface definition
 export interface Book {
   id: string | number,
   title: string,
@@ -15,6 +16,7 @@ export interface Book {
   text: string,
 }
 
+//Service to get data from db.json
 @Injectable({
   providedIn: 'root'
 })

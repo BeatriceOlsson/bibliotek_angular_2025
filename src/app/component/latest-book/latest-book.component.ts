@@ -10,6 +10,7 @@ import { Subscription } from 'rxjs';
   imports: [RouterModule, CommonModule],
   templateUrl: './latest-book.component.html',
   styleUrls:  ['./latest-book.component.css'],
+  // Prevent styles from being scoped to this component only
   encapsulation: ViewEncapsulation.None
 })
 export class LatestBookComponent {

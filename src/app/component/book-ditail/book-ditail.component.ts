@@ -17,7 +17,9 @@ export class BookDitailComponent {
   private bookServer = inject(BooksService)
 
   books = signal<Book[]>([]);
+  // get bookId from route params
   bookId = computed(() => this.route.snapshot.paramMap.get('id'));
+  // find book by id from books signal
   book = computed<Book | undefined>(() => this.books().find(b => b.id === this.bookId()));
 
   constructor() {

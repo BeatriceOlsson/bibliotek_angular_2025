@@ -1,6 +1,8 @@
 <div class="columns_3">
+  <!-- Grouped by first letter -->
   <div *ngFor="let letter of letters">
     <h2>{{ letter }}</h2>
+    <!-- List books under the current letter -->
     <h4 *ngFor="let book of groupedBooks[letter]">
       <a [routerLink]="['/app-book-ditail', book.id]">{{ book.title }}</a>
     </h4>

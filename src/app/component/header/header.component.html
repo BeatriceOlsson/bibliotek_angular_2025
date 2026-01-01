@@ -1,6 +1,8 @@
 <header class="headerHeader">
   <h1><a routerLink="/">Mitt Bibliotek</a></h1>
   <a routerLink="/"><img src="assets/images/books.png" /></a>
+
+  <!-- Meny for navigation -->
   <ul class="menyHeader" [class.open]="menyOpen">
     <li><a routerLink="/" (click)="closeMenu()">Home</a></li>
     <li><app-latest-book btClass="header" (click)="closeMenu()"></app-latest-book></li>
@@ -8,6 +10,7 @@
     <li><a routerLink="" (click)="closeMenu()">Om mig</a></li>
   </ul>
 
+  <!-- Hamburger meny ikon -->
   <div class="hamburger" (click)="toggleMenu()">
     <div class="bar"></div>
     <div class="bar"></div>

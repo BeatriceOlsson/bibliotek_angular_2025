@@ -9,11 +9,13 @@ import { CommonModule } from '@angular/common';
   imports: [RouterModule, CommonModule],
   templateUrl: './latest-book.component.html',
   styleUrl: './latest-book.component.css',
+  // Prevent styles from being scoped to this component only
   encapsulation: ViewEncapsulation.None
 })
 export class LatestBookComponent {
   @Input() btClass: string = '';
 
+  // Using Angular's signal to manage state
   books = signal<Book[]>([]);
   router = inject(Router);
   booksService = inject(BooksService);
@@ -25,9 +27,11 @@ export class LatestBookComponent {
   }
 
   latestBook() {
+    // Sort books by creation date in descending order and get the latest one
     const latest = [...this.books()].sort((a, b) =>
       new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())[0];
-    console.log(latest);
+
+    // Navigate to the detail page of the latest book
     if (latest) {
       this.router.navigate(['app-book-ditail', latest.id]);
     };

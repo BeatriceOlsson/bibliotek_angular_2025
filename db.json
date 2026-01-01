@@ -8,7 +8,7 @@
             "published": "2018-06-28",
             "createdAt": "2025-07-02T10:30:00Z",
             "image": [
-                "assets/images/images.jpg",
+                "assets/images/carry_on_jeeves.webp",
                 "assets/images/PGWodehouse.jpg"
             ],
             "link": "https://www.adlibris.com/se/bok/carry-on-jeeves-9781787461079?utm_source=google&utm_medium=cpc&utm_campaign=AR:+BOK+-+pMAX+Shopping+-+Generic+-+B%C3%B6cker+ENG&gad_source=1&gclid=CjwKCAiAl4a6BhBqEiwAqvrqunR3kbYFr2dknYLqwLoDqCcYzf3Acmei1hzjyEeeJ_2CGaZgqbJC_xoCZQ0QAvD_BwE",
@@ -24,11 +24,11 @@
             "createdAt": "2025-07-19T12:30:00+02:00",
             "image": [
                 "assets/images/a_very_english_murder.jpg",
-                "assets/images/images2.jpg"
+                "assets/images/no_writer_icon.jpg"
             ],
             "link": "https://www.adlibris.com/sv/bok/a-very-english-murder-9781838886189",
             "description": "I denna kortare, mysigt komprimerade berättelse får läsaren följa Lady Eleanor Swift när hon hamnar mitt i ännu en kusligt charmig mordgåta — denna gång i ett engelskt gods där den perfekta fasaden spricker i samma stund som en död kropp dyker upp.\n \nTrots att allt borde vara fridfullt och högtidligt, fylls atmosfären snabbt av misstankar, hemligheter och familjedrama som bubblar under ytan. Eleanor, med sin karaktäristiska blandning av mod, humor och empatisk nyfikenhet, tar sig an mysteriet tillsammans med sin lojale butler Clifford och ett par lika excentriska som underhållande figurer.\n \nMed klassisk brittisk landsbygdskänsla, en tätt sammanhållen miljö och ett mysterium där alla verkar kunna ha motiv, bjuder A Very English Murder på en snabb, charmig och kvällsperfekt berättelse som fångar allt det som gör serien så älskad — utan att någonsin bli mörk eller tung.",
-            "text": "Test av text"
+            "text": "A Very English Murder fångar mycket av det jag uppskattar i klassiska brittiska mysterier: en stämningsfull miljö, charmiga karaktärer och en berättelse som balanserar spänning med värme. Precis som i de andra böckerna jag tyckt om, använder författaren vardagliga traditioner och sociala detaljer för att skapa en autentisk och historiskt förankrad atmosfär som både engagerar och underhåller.\n \nKaraktärerna är en av bokens stora styrkor. De är både mänskliga och excentriska på ett sätt som påminner om varför jag fastnat för serier som Lady Eleanor Swift och även Carry On, Jeeves. Oavsett om man tycker om dem eller misstror dem, känns alla levande och bidrar till berättelsens charm. Den subtila humorn vävs in naturligt och gör att man då och då småler mitt i den pågående mordutredningen, vilket ger boken en lättsam ton utan att ta bort fokus från mysteriet.\n \nSjälva mordgåtan är väl konstruerad, med ledtrådar, misstänkta och oväntade vändningar som gör resan mot lösningen minst lika viktig som svaret i sig. Precis som i andra berättelser jag uppskattat, ligger mycket av nöjet i att följa samspelet mellan karaktärerna och långsamt se hur bitarna faller på plats.\n \nSammanfattningsvis erbjuder A Very English Murder en mysig och välbalanserad deckarupplevelse med både humor och historisk känsla. Den är lätt att tycka om och perfekt när man vill ha något som både underhåller och värmer – en klassiskt brittisk pusseldeckare när den är som bäst."
         },
         {
             "id": "3",
@@ -39,7 +39,7 @@
             "createdAt": "2025-11-14T12:30:00+02:00",
             "image": [
                 "assets/images/Death_at_the_Dance.jpg",
-                "assets/images/images2.jpg"
+                "assets/images/no_writer_icon.jpg"
             ],
             "link": "https://www.adlibris.com/sv/bok/death-at-the-dance-9781838887551",
             "description": "I Death at the Dance, den andra boken i Lady Eleanor Swift-serien, kastas Eleanor åter in i en virvel av glamour, sociala förväntningar och dödligt allvar. När hon deltar i en elegant välgörenhetsbal – mer av plikt än av nöje – blir kvällen snabbt något helt annat än en festlig tillställning. Ett oförklarligt dödsfall skakar societeten, och Eleanor befinner sig oväntat nära både dramat och offret.\n \nTrots att hon helst skulle tillbringa dagen därpå i hemmets trygga lugn, med en kopp te och avstånd till all form av glitter, hamnar hon återigen mitt i ett mysterium. Drivkraften att förstå vad som hänt – och en växande känsla av ansvar – för henne allt djupare in i en värld av dans, intriger och hemligheter som döljs bakom leenden och vackra fasader.\n \n Med hjälp av sina färgstarka allierade, inte minst den pålitlige butlern Clifford, navigerar Eleanor genom överklassens sociala spel, där nästan alla verkar ha något att dölja och där sanningen dansar lika undvikande som gästerna på balsalens golv. Ju närmare hon kommer mordets kärna, desto mer inser hon att varje detalj kan vara avgörande – från viskningar i kulisserna till subtila blickar över champagneglas.\n \n Atmosfären är lättsam, charmig och fylld av humor, men under ytan bubblar en oväntad spänning som leder fram till ett avslut som både överraskar och engagerar. Även om själva avslöjandet av mördaren är kort och elegant, är det resan dit – med dess karaktärer, samhällsskildring och frestande små gåtor – som gör boken så tilltalande.",
@@ -49,12 +49,12 @@
             "id": "4",
             "title": "A Witness to Murder",
             "author": "Verity Bright",
-            "opinion": "6",
+            "opinion": "7",
             "published": "2020-09-14",
-            "createdAt": "2025-11-25T12:30:00+02:00",
+            "createdAt": "2025-11-21T12:30:00+02:00",
             "image": [
                 "assets/images/A_witness_to _murder.jpg",
-                "assets/images/images2.jpg"
+                "assets/images/no_writer_icon.jpg"
             ],
             "link": "https://www.adlibris.com/sv/bok/a-witness-to-murder-9781838887575",
             "description": "I A Witness to Murder kastas Eleanor Swift åter in i ett mysterium som drar henne bort från hennes bekväma vardag. Den här gången tvingas hon navigera en värld av sociala och politiska intriger som hon helst skulle ha undvikit, samtidigt som hon måste använda sitt skarpsinne och sin nyfikenhet för att förstå vad som egentligen pågår.\n \nBerättelsen blandar charm, humor och spänning på ett sätt som gör Eleanor både relaterbar och underhållande. Trots att situationerna ibland är komplexa, är det Eleanors personlighet, hennes empati och de färgstarka människor hon möter som verkligen driver berättelsen framåt. Läsaren får följa med på en resa fylld av oväntade hinder, subtila ledtrådar och små, vardagliga observationer som avslöjar mer om karaktärerna än om själva mysteriet.\n \nBoken är en mysig, välskriven och engagerande läsupplevelse där spänningen kommer från både intrigerna och de relationer Eleanor navigerar, snarare än enbart själva brottet. Den visar också upp tidens sociala konventioner och kontrasten mellan dåtidens moral och dagens perspektiv, vilket ger berättelsen både djup och värme.",
@@ -64,12 +64,12 @@
             "id": "5",
             "title": "Murder in the Snow",
             "author": "Verity Bright",
-            "opinion": "",
+            "opinion": "8",
             "published": "2020-11-19",
-            "createdAt": "2026-01-05T12:30:00+02:00",
+            "createdAt": "2025-11-22T12:30:00+02:00",
             "image": [
                 "assets/images/murder_in_the_snow.jpg",
-                "assets/images/images2.jpg"
+                "assets/images/no_writer_icon.jpg"
             ],
             "link": "https://www.adlibris.com/sv/bok/murder-in-the-snow-9781800190719",
             "description": "När en idyllisk vinterdag i Henley Hall plötsligt bryts av ett dödsfall, kastas Lady Eleanor Swift åter in i ett mysterium där snötäcket gömmer fler hemligheter än det avslöjar. Den fridfulla stämningen i byn ersätts av viskningar, misstankar och oväntade kopplingar mellan människor som annars verkar leva stillsamma liv.\n \nEleanor, som gärna hade fokuserat på högtidsförberedelser och lugna stunder med sitt hushåll, finner sig ofrånkomligen indragen när sanningen visar sig vara betydligt mer komplicerad än det först verkade. Tillsammans med Clifford och sina trogna fyrbenta följeslagare försöker hon navigera ett nät av relationer, gamla oförrätter och personliga lojaliteter som är svårare att läsa än spåren i snön.\n \nDet är en vintrig, stämningsfull och varmt humoristisk mysdeckare som bjuder på både charm och utredningsglädje.",
@@ -79,12 +79,12 @@
             "id": "6",
             "title": "Mystery by the Sea",
             "author": "Verity Bright",
-            "opinion": "",
+            "opinion": "7",
             "published": "2021-03-11",
-            "createdAt": "2026-01-29T12:30:00+02:00",
+            "createdAt": "2025-11-23T12:30:00+02:00",
             "image": [
                 "assets/images/Mystery_by_the_sea.jpg",
-                "assets/images/images2.jpg"
+                "assets/images/no_writer_icon.jpg"
             ],
             "link": "https://www.adlibris.com/sv/bok/mystery-by-the-sea-9781800193949",
             "description": "När Eleanor reser till kusten i hopp om lite havsluft och en paus från vardagens ansvar, får hon snabbt erfara att lugnet vid havet inte varar länge. En oväntad tragedi inträffar nära strandlinjen, och plötsligt befinner hon sig mitt i ett mysterium där vågorna inte bara döljer skatter — utan även hemligheter.\n \nMedan stormiga känslor och lokala konflikter skapar oro bland invånarna, börjar Eleanor nysta i det som gömmer sig bakom den pittoreska ytan. Miljön vid havet ger berättelsen en ny ton, där faror och ledtrådar kan uppstå i allt från ensliga klippor till livliga fiskarhamnar.\n \nSamspelet mellan karaktärerna, humorn och de oväntade vändningarna gör Mystery by the Sea till en fräsch och levande del i serien, där Eleanor återigen visar sin förmåga att se det andra missar.",
@@ -94,12 +94,12 @@
             "id": "7",
             "title": "Murder at the Fair",
             "author": "Verity Bright",
-            "opinion": "",
+            "opinion": "8",
             "published": "2021-06-15",
-            "createdAt": "2026-02-19T12:30:00+02:00",
+            "createdAt": "2025-11-24T12:30:00+02:00",
             "image": [
                 "assets/images/Murder_at_the_fair.jpg",
-                "assets/images/images2.jpg"
+                "assets/images/no_writer_icon.jpg"
             ],
             "link": "https://www.adlibris.com/sv/bok/murder-at-the-fair-9781800194205",
             "description": "När en livlig byfest och marknad kommer till området förväntar sig Eleanor inget annat än lite underhållning, folkliv och kanske några små tävlingar. Men glädjen får ett abrupt slut när en person hittas död mitt bland karuseller, tält och skrattande besökare.\n \nByns annars så festliga atmosfär förvandlas snabbt till något mer oroligt, och Eleanor tvingas se förbi alla färger och ljud för att upptäcka vad som egentligen pågår. Här finns många människor på plats, alla med sina egna små hemligheter och motiv — och det gör mysteriet både mer intrikat och mer underhållande.\n \nMurder at the Fair kombinerar fart, folklighet och traditionell mysdeckarcharm i en berättelse där en festlig kuliss döljer betydligt mörkare undertoner.",
@@ -109,12 +109,12 @@
             "id": "8",
             "title": "A Lesson in Murder",
             "author": "Verity Bright",
-            "opinion": "",
+            "opinion": "8",
             "published": "2021-09-14",
-            "createdAt": "2026-03-16T12:30:00+02:00",
+            "createdAt": "2025-11-25T12:30:00+02:00",
             "image": [
                 "assets/images/A_lesson_in_murder.jpg",
-                "assets/images/images2.jpg"
+                "assets/images/no_writer_icon.jpg"
             ],
             "link": "https://www.adlibris.com/sv/bok/a-lesson-in-murder-9781800195714",
             "description": "När Eleanor besöker en ansedd skola – ett ställe präglat av disciplin, bildning och välputsade fasader – förväntar hon sig lugn och formell ordning. Men när ett mystiskt dödsfall inträffar bland anställda och elever, blir det tydligt att även de mest respektabla miljöer kan ruva på farliga hemligheter.\n \nPlötsligt befinner hon sig i en värld fylld av akademiska rivaliteter, ambitiösa studenter och vuxna med lika många sidor som en lärobok. Eleanor måste använda både sitt skarpsinne och sin medmänsklighet för att se igenom fasaderna och förstå vilka konflikter som egentligen styr saker och ting bakom kulisserna.\n \nA Lesson in Murder är en berättelse där klassiska deckarelement möter skolmiljöns intensiva dynamik, och där Eleanor åter visar sin unika förmåga att förena intuition med omtanke.",
@@ -122,18 +122,78 @@
         },
         {
             "id": "9",
-            "title": "A Very English Murder",
+            "title": "Death on a Winter’s Day",
             "author": "Verity Bright",
-            "opinion": "7",
-            "published": "2020-04-07",
-            "createdAt": "2025-07-19T12:30:00+02:00",
+            "opinion": "8",
+            "published": "2021-11-24",
+            "createdAt": "2025-11-26T12:30:00+02:00",
             "image": [
-                "assets/images/.jpg",
-                "assets/images/images2.jpg"
+                "assets/images/Death_on_a_Winter’s_Day.jpg",
+                "assets/images/no_writer_icon.jpg"
             ],
-            "link": "https://www.adlibris.com/sv/bok/a-very-english-murder-9781838886189",
-            "description": "",
-            "text": "Test av text"
+            "link": "https://www.adlibris.com/sv/bok/death-on-a-winters-day-9781800195738",
+            "description": "I denna vinterkyliga och vackert inramade berättelse reser Lady Eleanor Swift till ett snötäckt skotskt gods för att delta i ett storslaget julfirande. Men den festliga stämningen spricker snabbt när ett dödsfall inträffar under mystiska omständigheter, och Eleanor blir återigen den som måste lägga pusslet.\n \nMed ett isolerat gods, äldre traditioner och gäster som bär på fler hemligheter än de vill erkänna, växer misstankarna i takt med den bitande kylan. Eleanor, tillsammans med sin lojale Clifford och ett färgstarkt sällskap skottar, skapar en tät och stämningsfull miljö där varje ledtråd känns betydelsefull.\n \nDeath on a Winter’s Day bjuder på en rik vintrig atmosfär, en charmigt klassisk pusseldeckarstruktur och en mordgåta där högtidens glans kontrasterar mot mörkare undertoner — perfekt för en kväll när man vill svepa in sig i både filt och mysterium.",
+            "text": "Stackars Eleanor får nästan aldrig fira jul utan att snubbla över en ny mordgåta, men just här blir det en stor del av bokens charm. Det är oerhört trevligt att få följa henne till Skottland, där traditioner, miljöer och stämningar ger berättelsen en fräsch och vacker inramning. Om beskrivningarna stämmer känns det dessutom som en spännande inblick i hur firandet kunde se ut förr.\n \nEfter nio böcker vet jag hur skickligt författaren skapar karaktärer som man omedelbart vill veta mer om, och även denna gång finns flera minnesvärda personligheter på scenen. Utan att avslöja något kan jag säga att detta är en av de mest spännande delarna i serien hittills — intensiteten gör att det blir svårt att lägga boken ifrån sig.\n \nDet är också värt att erkänna att min egen julkänsla bidrog till upplevelsen; jag älskar berättelser som utspelar sig under högtiden, och här kombineras mysig vintermiljö med en riktigt engagerande mordgåta. Death on a Winter’s Day är därför en underbar läsning för alla som uppskattar stämningsfulla deckare med både hjärta och tempo."
+        },
+        {
+            "id": "10",
+            "title": "A Royal Murder",
+            "author": "Verity Bright",
+            "opinion": "9",
+            "published": "2022-02-28",
+            "createdAt": "2025-11-27T12:30:00+02:00",
+            "image": [
+                "assets/images/A_Royal_Murder.jpg",
+                "assets/images/no_writer_icon.jpg"
+            ],
+            "link": "https://www.adlibris.com/sv/bok/a-royal-murder-9781800195691",
+            "description": "I A Royal Murder kastas Lady Eleanor Swift in i ett fall som snabbt visar sig vara mer politiskt laddat än hennes tidigare äventyr. När en högt uppsatt person hittas död blir situationen både känslig och farlig, och Eleanor måste navigera bland diplomater, bevakade hemligheter och internationella spänningar.\n \nMiljön är glamorös men samtidigt fylld av skuggor och osäkerhet, och snart blir det tydligt att mordgåtan döljer mer än bara ett vanligt motiv. Med Clifford och kommissarie Seldon vid sin sida tvingas Eleanor följa ledtrådar som leder utanför den tryggare landsbygd hon är van vid.\n \nResultatet är ett mysterium som väver samman kunglig glans, intriger och en mer fartfylld ton än många av de tidigare delarna — en bok som överraskar i både stil och spänning.",
+            "text": "A Royal Murder visade sig bli en av de mer överraskande och engagerande böckerna i serien. Inledningen har samma uppbyggnad som tidigare delar, men ganska snart byter berättelsen riktning och börjar mer likna en spionroman än en klassisk pusseldeckare. Det blev en frisk förändring som höll mig fast genom hela boken.\n \nÄven om jag ofta uppskattar strukturen i traditionella mordgåtor, var det roligt att få något lite annorlunda. Här går tempot upp, stakes blir högre och Eleanors roll får en ny, spännande dimension. Att offret dessutom tillhör en hög samhällsställning gav händelserna extra tyngd.\n \nSlutet kom som en överraskning, och helhetsupplevelsen gjorde att jag nästan sträckläste boken. A Royal Murder är ett tydligt exempel på hur variation i serien både förnyar och fördjupar helheten — och det gjorde den till en av mina favoriter hittills."
+        },
+        {
+            "id": "11",
+            "title": "Murder on the SS Cleopatra",
+            "author": "Sara Rosett",
+            "opinion": "7",
+            "published": "2025-10-21",
+            "createdAt": "2025-11-29T12:30:00+02:00",
+            "image": [
+                "assets/images/Murder_on_the_SS_Cleopatra.jpg",
+                "assets/images/Sara_Rosett_Author.webp"
+            ],
+            "link": "https://www.adlibris.com/sv/bok/murder-on-the-ss-cleopatra-9781950054961",
+            "description": "När huvudpersonen stiger ombord på kryssningsfartyget SS Cleopatra väntar en elegant och stillsam resa över vattnet — men den lugna tillvaron får snabbt en mörk kant. Ombord finns ett färgstarkt sällskap av resenärer, alla med sina charmiga, märkliga eller misstänkta egenheter, och den instängda miljön gör att minsta hemlighet får stor betydelse.\n \nNär ett dödsfall inträffar förvandlas den glamorösa resan till ett klassiskt “ingen kan lämna”-mysterium där varje blick, varje samtal och varje oväntad reaktion plötsligt känns laddad. Den historiska miljön är noggrant uppbyggd, och boken fångar både tidsandan och de sociala koder som styrde människors beteende — men samtidigt låter den huvudpersonen ha en modernare, mänskligare syn som ger berättelsen värme.\n \nMurder on the SS Cleopatra är en kort men stämningsfull deckare som använder fartygets begränsade värld till att skapa en tät och engagerande gåta, perfekt för dig som gillar klassiska pusseldeckare i elegant miljö.",
+            "text": "Det som slog mig mest med Murder on the SS Cleopatra är hur mycket den påminner om Agatha Christies båtmysterier — särskilt Murder on the Nile. Jag tyckte inte att likheterna störde berättelsen, snarare tvärtom: när man skriver inom samma genre och placerar handlingen på ett fartyg är det naturligt att vissa element känns bekanta. Här fungerar det riktigt bra eftersom författaren uppenbart gjort noggrann research, vilket gör miljöerna trovärdiga och tidstypiska.\n \nJag uppskattade särskilt hur karaktärerna framställs med den tidsenliga syn på klass, uppförande och sociala regler som var vanlig då. Det skapar en autenticitet som känns helt rätt för perioden. Samtidigt är huvudpersonen skriven med en mer modern värme och ett öppnare sätt att se på människor, vilket ger en fin kontrast och gör att man som läsare lättare knyter an till henne.\n \nTrots sin korthet lyckas boken skapa en tydlig spänning och en charmig, lite instängd atmosfär där varje person ombord blir en möjlig misstänkt. Det är inte en historia som försöker vara större än sitt format — och det är just därför den fungerar så bra. Den levererar en elegant, snabb och klassiskt uppbyggd mordgåta som känns både bekant och underhållande."
+        },
+        {
+            "id": "12",
+            "title": "Every Day I Read",
+            "author": "Hwang Bo-reum",
+            "opinion": "6",
+            "published": "2025-10-21",
+            "createdAt": "2025-11-30T12:30:00+02:00",
+            "image": [
+                "assets/images/Every_Day_I_Read.jpg",
+                "assets/images/hwang_bo_reum.jpg"
+            ],
+            "link": "https://www.adlibris.com/sv/bok/every-day-i-read-9781526692801",
+            "description": "Every Day I Read är en liten men finstämd bok som liknar ett litterärt smycke: kort, koncentrerad och full av tankar om varför berättelser spelar så stor roll i våra liv. Istället för att följa en traditionell intrig är boken uppdelad i olika tematiska delar där författaren utforskar när, hur och varför vi läser — och vad litteratur kan betyda beroende på vilken sinnesstämning, fas eller situation vi befinner oss i.\n \nVarje avsnitt belyser en viss typ av böcker eller läsupplevelser, och genom personliga anekdoter, iakttagelser och reflektioner skapar författaren en varm hyllning till läsandet i sig. Samtidigt finns en filosofisk ton i bakgrunden: en känsla av att litteraturen inte bara underhåller oss, utan också formar oss, följer oss och ibland till och med förändrar oss.\n \nDet gör Every Day I Read till en bok som inte främst handlar om vad vi läser — utan varför.",
+            "text": "Trots sin korta längd tycker jag att Every Day I Read rymmer förvånansvärt mycket. Författaren försöker inte övertyga läsaren om att prova vissa genrer eller söka sig till specifika författare; istället riktas fokus mot upplevelser, känslor och små stunder som alla bokälskare kan känna igen. Det gör boken både personlig och allmängiltig på samma gång.\n \nJag uppskattade särskilt hur författaren delar med sig av egna erfarenheter från läsandet — de små vardagsögonblicken, mötena med böcker som förändrat henne, och situationerna där litteraturen blivit en tyst följeslagare. Dessa delar fick mig både att le och att reflektera över min egen relation till böcker: varför jag väljer vissa berättelser vid vissa tillfällen, och hur olika genrer påverkar mig beroende på var i livet jag befinner mig.\n \nDet filosofiska inslaget överraskade mig positivt. Även om reflektionerna är korta, lyckas de beröra sådant som många läsare instinktivt känner men sällan sätter ord på: hur böcker kan spegla oss, stötta oss, utmana oss eller bara ge oss en trygg plats att vila i. Vissa formuleringar stannade kvar långt efter att jag hade läst klart, och några av dem är sådana citat som man gärna bär med sig genom livet.\n \nNär jag lade undan boken var det inte med känslan av att jag ville läsa mer i nya genrer, utan snarare med en fördjupad förståelse för hur jag själv förhåller mig till böcker. Det blev en slags stillsam påminnelse om varför läsandet betyder så mycket för mig — och varför det fortsätter att vara en av de mest pålitliga och glädjefyllda delarna av min vardag.\n \nEvery Day I Read är kort, men den lämnar efter sig spår som känns betydligt större än sidantalet. Det är en varm, tankeväckande hyllning till läsandets kraft, och en bok som man lätt kan återvända till när man vill bli påmind om varför man älskar litteratur."
+        },
+        {
+            "id": "13",
+            "title": "Murder in an Irish Village",
+            "author": "Carlene O'Connor",
+            "opinion": "",
+            "published": "2022-01-10",
+            "createdAt": "2025-12-01T12:30:00+02:00",
+            "image": [
+                "assets/images/Murder_in_an_Irish_Village.jpg",
+                "assets/images/Carlene_OConnor.jpg"
+            ],
+            "link": "https://www.adlibris.com/sv/bok/murder-in-an-irish-village-9781800326873",
+            "description": "Every Day I Read är en liten men finstämd bok som liknar ett litterärt smycke: kort, koncentrerad och full av tankar om varför berättelser spelar så stor roll i våra liv. Istället för att följa en traditionell intrig är boken uppdelad i olika tematiska delar där författaren utforskar när, hur och varför vi läser — och vad litteratur kan betyda beroende på vilken sinnesstämning, fas eller situation vi befinner oss i.\n \nVarje avsnitt belyser en viss typ av böcker eller läsupplevelser, och genom personliga anekdoter, iakttagelser och reflektioner skapar författaren en varm hyllning till läsandet i sig. Samtidigt finns en filosofisk ton i bakgrunden: en känsla av att litteraturen inte bara underhåller oss, utan också formar oss, följer oss och ibland till och med förändrar oss.\n \nDet gör Every Day I Read till en bok som inte främst handlar om vad vi läser — utan varför.",
+            "text": "Trots sin korta längd tycker jag att Every Day I Read rymmer förvånansvärt mycket. Författaren försöker inte övertyga läsaren om att prova vissa genrer eller söka sig till specifika författare; istället riktas fokus mot upplevelser, känslor och små stunder som alla bokälskare kan känna igen. Det gör boken både personlig och allmängiltig på samma gång.\n \nJag uppskattade särskilt hur författaren delar med sig av egna erfarenheter från läsandet — de små vardagsögonblicken, mötena med böcker som förändrat henne, och situationerna där litteraturen blivit en tyst följeslagare. Dessa delar fick mig både att le och att reflektera över min egen relation till böcker: varför jag väljer vissa berättelser vid vissa tillfällen, och hur olika genrer påverkar mig beroende på var i livet jag befinner mig.\n \nDet filosofiska inslaget överraskade mig positivt. Även om reflektionerna är korta, lyckas de beröra sådant som många läsare instinktivt känner men sällan sätter ord på: hur böcker kan spegla oss, stötta oss, utmana oss eller bara ge oss en trygg plats att vila i. Vissa formuleringar stannade kvar långt efter att jag hade läst klart, och några av dem är sådana citat som man gärna bär med sig genom livet.\n \nNär jag lade undan boken var det inte med känslan av att jag ville läsa mer i nya genrer, utan snarare med en fördjupad förståelse för hur jag själv förhåller mig till böcker. Det blev en slags stillsam påminnelse om varför läsandet betyder så mycket för mig — och varför det fortsätter att vara en av de mest pålitliga och glädjefyllda delarna av min vardag.\n \nEvery Day I Read är kort, men den lämnar efter sig spår som känns betydligt större än sidantalet. Det är en varm, tankeväckande hyllning till läsandets kraft, och en bok som man lätt kan återvända till när man vill bli påmind om varför man älskar litteratur."
         }
     ]
 }

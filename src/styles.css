@@ -1,8 +1,15 @@
 :root {
-    --main-color: #FAF6E3;
+    --primary-color: #FAF6E3;
     --second-color: #D8DBBD;
     --third-color: #B59F78;
     --details-color: #2A3663;
+}
+
+h1, h2, h3, h4, p, a, li, button {
+    font-family: 'times new roman', Times, serif;
+}
+p {
+    font-size: large;
 }
 
 @media (max-width: 780px) {

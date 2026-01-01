@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 
 //Book interface definition
 export interface Book {
-  id: string,
+  id: string | number,
   title: string,
   author: string,
   opinion: number,
@@ -26,7 +26,7 @@ export class BooksService {
 
   //Gets data from db.json. Needs to be running to be function properly.
   getBooks() {
-    return this.http.get<Book[]>('http://localhost:3000/books');
+    return this.http.get<Book[]>('http://localhost:3001/books');
   }
 
   addBook(bookData: FormData): Observable<any> {

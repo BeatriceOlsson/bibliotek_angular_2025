@@ -46,7 +46,7 @@ export class HomePageComponent {
         new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
 
       // Get the latest number of books
-      const latestTow = sortedData.slice(0, 4);
+      const latestTow = sortedData.slice(0, 7);
       this.books.set(latestTow);
     });
   }

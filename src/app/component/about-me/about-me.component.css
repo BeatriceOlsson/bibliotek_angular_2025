@@ -1,0 +1,98 @@
+.about-container {
+    display: grid;
+    grid-template-columns: auto, auto;
+    grid-auto-rows: auto;
+}
+
+.image {
+    grid-column: 1;
+    grid-row: 1;;
+}
+
+img {
+    border-radius: 25px;
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    align-content: start;
+    object-fit: cover;
+}
+
+.about-text {
+    display: contents;
+    justify-content: center;
+}
+
+.about-text br {
+    display: block;
+    margin: 1rem 0;
+}
+
+.aboutMe {
+    grid-column: 2;
+    grid-row: 1;
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+    max-width: 700px;
+    padding-right: 1.5rem;
+}
+
+.personality {
+    grid-column: 1;
+    grid-row: 2;
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+    max-width: 700px;
+    padding-left: 1.5rem;
+}
+
+.intrests {
+    grid-column: 2;
+    grid-row: 3;
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+    max-width: 700px;
+    padding-right: 1.5rem;
+}
+
+.intrests-img {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.work-life {
+    grid-column: 1;
+    grid-row: 4;
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+    max-width: 700px;
+    padding-left: 1.5rem;
+}
+
+.work-img {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+@media (max-width: 700px) {
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+    .image {
+        grid-column: 1;
+    }
+    .about-text {
+        /* restore wrapper behavior on small screens so content stacks naturally */
+        display: block;
+    }
+    .aboutMe,
+    .personality,
+    .intrests,
+    .work-life {
+        grid-column: auto;
+        grid-row: auto;
+        padding-left: 0.5rem;
+        padding-top: 0.75rem;
+        max-width: 100%;
+    }
+}

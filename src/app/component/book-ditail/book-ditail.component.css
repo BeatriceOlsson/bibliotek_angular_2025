@@ -1,19 +1,92 @@
+.bookDetailContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: var(--details-color);
+}
 .text-block {
     white-space: pre-line;
 }
 
 /*Keaps the image in the center, but the arows mover arownd*/
 .homeImage {
+    grid-column: 1/2;
+    grid-row: 1;
     width: 250px;
     height: 350px;
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
+    margin: 1rem;
 }
 
 .homeImage img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+}
+
+.bookInformation {
+    grid-column: 2 / 6;
+    grid-row: 1 ;
+    align-content: center;
+    justify-self: center;
+    text-align: center;
+}
+.bookText {
+    grid-column: 1 /6;
+}
+.bookText h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--details-color);
+    font-size: larger;
+    text-align: center;
+}
+.byButton {
+    width: 15rem;
+    height: 3.5rem;
+    font-size: large;
+    color: var(--details-color);
+    border: none;
+    background-color: var(--third-color);
+    border-radius: 1em;
+    margin: 1rem;
+}
+
+.byButton:hover {
+    box-shadow: inset 0 0 10px var(--details-color);
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+
+@media (max-width: 600px) {
+    .bookDetailContainer {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+    .homeImage {
+        grid-column: 1 / 2;
+        grid-row: 1;
+        width: 200px;
+        height: 300px;
+        margin: 0 auto 1rem auto;
+    }
+    .bookInformation {
+        grid-column: 1 / 2;
+        grid-row: 2;
+    }
+    .bookText {
+        grid-column: 1 / 2;
+        grid-row: 3;
+    }
 }

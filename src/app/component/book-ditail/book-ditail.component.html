@@ -1,24 +1,30 @@
-<div *ngIf="book() as currentBook; else loading">
+<section>
+<div class="bookDetailContainer" *ngIf="book() as currentBook; else loadingTemplate">
   <div class="homeImage">
     <app-image-switch [image]="currentBook.image" width="300px" height="auto"></app-image-switch>
   </div>
   <div class="bookInformation">
     <h1>{{ currentBook.title }}</h1>
-    <h2>{{ currentBook.author }}</h2>
-    <h2>{{ currentBook.opinion }}</h2>
-    <h2>{{ currentBook.published }}</h2>
-    <h3>
-      Köp boken
-      <a href="{{ currentBook.link }}" rel="noopener" target="_blank">här</a>
-    </h3>
+    <h2>Förfatare: {{ currentBook.author }}</h2>
+    <h2>Omdöme:{{ currentBook.opinion }}</h2>
+    <h2>Utgivar datum: {{ currentBook.published }}</h2>
+    <button class="byButton" (click)="openLink(currentBook.link)">
+      Köp boken här
+    </button>
   </div>
   <div class="bookText">
+    <br>
+    <h3>Om boken</h3>
     <p class="text-block">{{ currentBook.description }}</p>
     <br />
+    <h3>Resension</h3>
     <p class="text-block">{{ currentBook.text }}</p>
   </div>
 </div>
 
-<ng-template #loading>
-  <p>Laddar...</p>
-</ng-template>
+<!-- Skapa en separat laddningsanimation som kan återanvändas på alla sidor -->
+<ng-template #loadingTemplate>
+  <!-- use the standalone loading component for a consistent loading view -->
+  <app-loading-page></app-loading-page>
+  </ng-template>
+</section>

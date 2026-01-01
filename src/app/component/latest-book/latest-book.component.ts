@@ -1,39 +1,38 @@
-import { Component, inject, Input, signal, ViewEncapsulation } from '@angular/core';
+import { Component, Input, ViewEncapsulation } from '@angular/core';
 import { Book, BooksService } from '../../service/books.service';
 import { Router, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-latest-book',
   standalone: true,
   imports: [RouterModule, CommonModule],
   templateUrl: './latest-book.component.html',
-  styleUrl: './latest-book.component.css',
+  styleUrls:  ['./latest-book.component.css'],
   // Prevent styles from being scoped to this component only
   encapsulation: ViewEncapsulation.None
 })
 export class LatestBookComponent {
-  @Input() btClass: string = '';
+  @Input() btClass = '';
+  private sub = new Subscription();
+  books: Book[] = [];
 
-  // Using Angular's signal to manage state
-  books = signal<Book[]>([]);
-  router = inject(Router);
-  booksService = inject(BooksService);
-
-  constructor() {
-    this.booksService.getBooks().subscribe(data => {
-      this.books.set(data);
-    });
+  constructor(private booksService: BooksService, private router: Router) {
+    this.sub.add(this.booksService.getBooks().subscribe(list => this.books = list || []));
   }
+
+  ngOnDestroy(): void {
+    this.sub.unsubscribe();
+  }
+  
 
   latestBook() {
-    // Sort books by creation date in descending order and get the latest one
-    const latest = [...this.books()].sort((a, b) =>
+    const latest = [...this.books].sort((a, b) =>
       new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())[0];
-
-    // Navigate to the detail page of the latest book
-    if (latest) {
+    if (!latest) return;
+    
       this.router.navigate(['app-book-ditail', latest.id]);
     };
-  }
+  
 }

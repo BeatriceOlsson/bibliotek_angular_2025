@@ -5,12 +5,25 @@
 .headerHeader {
     display: flex;
     flex-direction: row;
-    background-color: var(--second-color);
+    background: linear-gradient(to bottom, var(--second-color), var(--primary-color));
     padding: 0%;
     justify-content: space-around;
     align-items: center;
 }
+ .headerHeader h1 {
+    font-size: xx-large;
+    font-weight: 900;
+    color: var(--details-color);
+    margin: 0%;
+    padding: 0%;
+}
 
+/* If the H1 contains an <a>, make the anchor inherit the H1's font-size and color */
+.headerHeader h1 a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
 .headerHeader a {
     padding: 0%;
     margin: 0%;
@@ -26,7 +39,7 @@
 
 .headerHeader img {
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 0.5rem;
     max-width: 80px;
 }
 
@@ -66,7 +79,7 @@
         width: 100%;
         top: 60px;
         left: 0%;
-        background-color: var(--second-color);
+        background-color: var(--primary-color);
         padding: 10px 0 25px;
         flex-direction: column;
         align-items: flex-end;

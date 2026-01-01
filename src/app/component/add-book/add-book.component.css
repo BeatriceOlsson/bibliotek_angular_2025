@@ -17,3 +17,9 @@ input, textarea {
 h3, label {
     margin: 0;
 }
+
+@media (max-width: 790px) {
+    .input, textarea {
+        width: 100%;
+    }
+}

@@ -23,7 +23,7 @@ describe('BooksService', () => {
   it('shuld show data', (done) => {
     const mockBook: Book [] = [
       {
-        "id": 1,
+        "id": "1",
         "title": "Carry on, Jeeves",
         "author": "P.G.Wodehouse",
         "opinion": 9,
@@ -44,33 +44,44 @@ describe('BooksService', () => {
         done();
       });
 
-      const req = httpMock.expectOne('http://localhost:3000/books');
+      const req = httpMock.expectOne('http://localhost:3001/books');
       expect(req.request.method).toBe('GET');
       req.flush(mockBook);
   })
 
   it('Shuld save book in DB', (done) => {
     const newBook: Book = {
-    id: 0,
-    title: 'Book titel',
-    author: 'Bea',
-    opinion: 10,
-    published: '2025-07-02',
-    createdAt: '2025-07-20',
-    image: [],
-    link: '',
-    description: 'Hej1',
-    text: 'Hej2',
+    "id": '0',
+    "title": 'Book titel',
+    "author": 'Bea',
+    "opinion": 10,
+    "published": '2025-07-02',
+    "createdAt": '2025-07-20',
+    "image": [],
+    "link": '',
+    "description": 'Hej1',
+    "text": 'Hej2',
     }
     
-    service.addBook(newBook).subscribe(book => {
+    // Convert Book object to FormData for addBook()
+    const formData = new FormData();
+    formData.append('id', String(newBook.id));
+    formData.append('title', newBook.title);
+    formData.append('author', newBook.author);
+    formData.append('opinion', String(newBook.opinion));
+    formData.append('published', newBook.published);
+    formData.append('createdAt', newBook.createdAt);
+    formData.append('link', newBook.link);
+    formData.append('description', newBook.description);
+    formData.append('text', newBook.text);
+    
+    service.addBook(formData).subscribe(book => {
       expect(book).toEqual(newBook);
       done();
     })
 
-    const req = httpMock.expectOne('http://localhost:3000/books');
+    const req = httpMock.expectOne('/api/books');
       expect(req.request.method).toBe('POST');
-      expect(req.request.body).toEqual(newBook);
       req.flush(newBook);
   })
 });

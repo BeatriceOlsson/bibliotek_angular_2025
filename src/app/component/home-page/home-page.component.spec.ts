@@ -50,7 +50,7 @@ describe('HomePageComponent', () => {
     expect(books).toEqual(sorted);
     });
 
-    const req = httpMock.expectOne('http://localhost:3000/books');
+    const req = httpMock.expectOne('http://localhost:3001/books');
     expect(req.request.method).toBe('GET');
     req.flush(bookMocks);
   })

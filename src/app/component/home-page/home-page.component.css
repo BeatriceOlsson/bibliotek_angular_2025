@@ -40,6 +40,7 @@ h2 {
     grid-column: 3;
     grid-row: 2 / 3;
     color: var(--details-color);
+    text-align: center;
 }
 
 .descriptionContainer {
@@ -70,7 +71,7 @@ h2 {
 .homeDescription.clamped {
     -webkit-line-clamp: 3;
     line-clamp: 3;
-    max-height: 4.5rem;
+    max-height: 5rem;
 }
 
 .homeDescription.expanded {
@@ -100,7 +101,7 @@ h2 {
     color: var(--details-color);
     border: none;
     background-color: var(--third-color);
-    border-radius: 2em;
+    border-radius: 1em;
     margin: 1rem;
 }
 

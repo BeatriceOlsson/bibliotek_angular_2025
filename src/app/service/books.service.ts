@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, Injectable, isStandalone } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Injectable } from '@angular/core';
+import { map, Observable } from 'rxjs';
 
 //Book interface definition
 export interface Book {
@@ -26,7 +26,8 @@ export class BooksService {
 
   //Gets data from db.json. Needs to be running to be function properly.
   getBooks() {
-    return this.http.get<Book[]>('http://localhost:3001/books');
+    return this.http.get<{books:Book[]}>('assets/db.json')
+    .pipe(map(response => response.books));
   }
 
   addBook(bookData: FormData): Observable<any> {
